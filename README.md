@@ -8,10 +8,14 @@ URL: https://servicodados.ibge.gov.br/api/docs/
 <br/>
 ```
   cd Customer-Registration-Form
-  npm install
-  npm run dev
-  ```
-  
- ### Notes
+```
+```
+npm install
+```
+```
+npm run dev
+```
+
+### Notes
  
 
