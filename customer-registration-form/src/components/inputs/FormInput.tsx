@@ -15,7 +15,7 @@ const FormInput = (props: inputProp) => {
         <Fragment>
             <div className="formInput">
                 <h3>{label}</h3>
-                <input type={type} name={name} placeholder={label} value={value} onChange={e => onChange(e)}/>
+                <input type={type} name={name} placeholder={placeholder} value={value} onChange={e => onChange(e)}/>
                 <br/>
             </div>
         </Fragment>
