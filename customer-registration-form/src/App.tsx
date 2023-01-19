@@ -22,6 +22,8 @@ function App() {
     password2: ""
   }),
   handleFormState = (event: ChangeEvent<HTMLInputElement>) => {
+
+    console.log("Event:",event);
     let target = event.target as HTMLInputElement;
     console.log("target:",target)
     const 
